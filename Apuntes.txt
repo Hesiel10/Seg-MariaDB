@@ -1,0 +1,20 @@
+-Minimo privilegio 
+ -Gestion de usuarios 
+    'usuario'@'localhost'
+        GRANT 
+        REVOKE
+ -Roles 
+
+ Aplicaciones web 
+ *BD ['usuweb'@'localhost'base.*]
+ *Aplicacion wordpress [Usuario contraseña]
+
+-Cifrado de datos
+algoritmos mas conoci2
+MD5  Select MD5('contraseña'); // se genera un hash
+SHA1
+SHA2 Select SHA2('contraseña'); // se genera un hash
+
+Select SHA2('contraseña', 512); // se genera un hash
+
+
